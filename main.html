@@ -5,12 +5,69 @@
 <head>
 	<link rel="stylesheet" href="styles.css">
 </head>
+	<style>
+		video.player_one{
+			background-color:rgb(255, 255, 255);
+			padding:10px;
+			border-radius:10px;
+			width:600px;
+		}
+		div{
+			border:3px solid black;
+			border-radius:10px;
+			background-color:white;
+		}
+		div li{
+			list-style-type: none;
+		}
+		div.box2{
+			margin-left:30px;
+		}
+		a{
+			color:black;
+		}
+		audio.player_two{
+		    margin-left:150px;
+			margin-bottom:10px;
+		}
+		body{
+			 background-color: rgb(204, 204, 204);
+		}
+	</style>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<h1 style="text-align:center">My Playlist</h1>
+	<div class="box1">
+	<ul>
+		<li><a href="https://pagal.com.in/song/Locha-E-Ulfat-2-States-2014.html" target="_blank" style="text-decoration-line: none">
+Locha-E-Ulfat</a></li>
+		<li><a href="https://pagal.com.in/song/Mast-Magan-2-States-2014.html" target="_blank" style="text-decoration-line: none">
+Mast Magan</a></li>
+		<li><a href="https://r.search.yahoo.com/_ylt=Awrx.rsSGbdm94MdE267HAx.;_ylu=Y29sbwNzZzMEcG9zAzIEdnRpZAMEc2VjA3Ny/RV=2/RE=1723304339/RO=10/RU=https%3a%2f%2fhindisongs.com.in%2flove-story-taylor-swift-mp3-song-download.html/RK=2/RS=6kZhyfkpcmsENBRwwV8d.iEoL8Q-" target="_blank" style="text-decoration-line: none">
+Love Story by Taylor Swift</a></li>
+		<li><a href="https://pagal.com.in/assets/images/products/Kaise_Bataaoon_-_3g_128_Kbps.mp3" target="_blank" style="text-decoration-line: none">
+Kaise Bataaoon</a></li>
+<li><a href="https://pagal.com.in/assets/images/products/Players_-_3_00_AM_Sessions_128_Kbps.mp3" target="_blank" style="text-decoration-line: none">
+Players</a></li>
+</ul>
+		</div>
+	<h2 style="text-align:center">Now Playing...</h2>
+	<div class="box2">
+	<video class="player_one" controls>
+            <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+	<h3 style="text-align:center;">MP3 songs</h3>
+	<audio class="player_two" controls>
+        <source src="audio.mp3" type="https://www.pagalworld.com.se/files/download/id/64630">
+        Your browser does not support the audio element.
+    </audio>
+</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
 </body>
+	
 
 </html>
